@@ -83,27 +83,3 @@ def evaluateTree(root, testData, classAttribute):
 		if data[classAttribute] == classify(root, data):
 			success += 1
 	return success/testData.shape[0]
-			
-def main():
-	#create the data and insert into dataframe
-	#treat count as the number of times that row of data is repeated
-	data = []
-	data += 30 * [['sales', 'senior', '31-35', '46-50K']]
-	data += 40 * [['sales', 'junior', '26-30', '26-30K']]
-	data += 40 * [['sales', 'junior', '31-35', '31-35K']]
-	data += 20 * [['systems', 'junior', '21-25', '46-50K']]
-	data += 5 * [['systems', 'senior', '31-35', '66-70K']]
-	data += 3 * [['systems', 'junior', '26-30', '46-50K']]
-	data += 3 * [['systems', 'senior', '41-45', '66-70K']]
-	data += 10 * [['marketing', 'senior', '36-40', '46-50K']]
-	data += 4 * [['marketing', 'junior', '31-35', '41-45K']]
-	data += 4 * [['secretary', 'senior', '46-50', '36-40K']]
-	data += 6 * [['secretary', 'junior', '26-30', '26-30K']]
-	labels = ['department', 'status', 'age', 'salary']
-	df = pd.DataFrame(data, columns=labels)
-
-	#build the tree and its visual graph representation and then display it
-	buildGraph(buildDecisionTree(data = df, classAttribute='status')).view()
-
-if __name__ == '__main__':
-	main()
