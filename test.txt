@@ -1,0 +1,71 @@
+                    Gender  Polyuria  Polydipsia  sudden weight loss  \
+Gender                True      True        True                True   
+Polyuria              True      True        True                True   
+Polydipsia            True      True        True                True   
+sudden weight loss    True      True        True                True   
+weakness             False      True        True                True   
+Polyphagia            True      True        True                True   
+Genital thrush        True     False       False               False   
+visual blurring       True      True        True               False   
+Itching              False     False       False               False   
+Irritability         False      True        True               False   
+delayed healing      False      True       False               False   
+partial paresis       True      True        True                True   
+muscle stiffness     False      True        True               False   
+Alopecia              True     False        True                True   
+Obesity              False     False       False                True   
+class                 True      True        True                True   
+
+                    weakness  Polyphagia  Genital thrush  visual blurring  \
+Gender                 False        True            True             True   
+Polyuria                True        True           False             True   
+Polydipsia              True        True           False             True   
+sudden weight loss      True        True           False            False   
+weakness                True        True           False             True   
+Polyphagia              True        True           False             True   
+Genital thrush         False       False            True            False   
+visual blurring         True        True           False             True   
+Itching                 True       False           False             True   
+Irritability           False        True            True            False   
+delayed healing         True        True           False             True   
+partial paresis         True        True            True             True   
+muscle stiffness        True        True           False             True   
+Alopecia               False       False            True            False   
+Obesity                False       False           False            False   
+class                   True        True           False             True   
+
+                    Itching  Irritability  delayed healing  partial paresis  \
+Gender                False         False            False             True   
+Polyuria              False          True             True             True   
+Polydipsia            False          True            False             True   
+sudden weight loss    False         False            False             True   
+weakness               True         False             True             True   
+Polyphagia            False          True             True             True   
+Genital thrush        False          True            False             True   
+visual blurring        True         False             True             True   
+Itching                True         False             True            False   
+Irritability          False          True            False             True   
+delayed healing        True         False             True             True   
+partial paresis       False          True             True             True   
+muscle stiffness       True          True             True             True   
+Alopecia               True         False             True             True   
+Obesity               False         False            False            False   
+class                 False          True            False             True   
+
+                    muscle stiffness  Alopecia  Obesity  class  
+Gender                         False      True    False   True  
+Polyuria                        True     False    False   True  
+Polydipsia                      True      True    False   True  
+sudden weight loss             False      True     True   True  
+weakness                        True     False    False   True  
+Polyphagia                      True     False    False   True  
+Genital thrush                 False      True    False  False  
+visual blurring                 True     False    False   True  
+Itching                         True      True    False  False  
+Irritability                    True     False    False   True  
+delayed healing                 True      True    False  False  
+partial paresis                 True      True    False   True  
+muscle stiffness                True     False     True  False  
+Alopecia                       False      True    False   True  
+Obesity                         True     False     True  False  
+class                          False      True    False   True  
